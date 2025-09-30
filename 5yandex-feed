@@ -13,7 +13,7 @@
       <category id="1">Татуировки</category>
     </categories>
     
-    <!-- БЛОК SETS ДОЛЖЕН БЫТЬ ПЕРЕД OFFERS -->
+    <!-- ДОБАВЛЯЕМ БЛОК SETS ПЕРЕД OFFERS -->
     <sets>
       <set id="tattoo-oktyabrsky">
         <name>Татуировки в Октябрьском</name>
@@ -24,7 +24,7 @@
     <offers>
       <offer id="1" available="true">
         <name>Gold Dragon - Татуировки в Октябрьском</name>
-        <url>https://golddragontattoo.ru</url>
+        <url>https://golddragontattoo.ru/tproduct/827530441632-tatuirovki-v-oktyabrskom</url>
         <price>6000</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
@@ -32,6 +32,7 @@
         <picture>https://static.tildacdn.com/stor3465-3066-4136-b831-373231376534/73704744.jpg</picture>
         <description>Профессиональные татуировки любой сложности от студии Gold Dragon</description>
         
+        <!-- ВСЕ 5 ОБЯЗАТЕЛЬНЫХ ПАРАМЕТРОВ -->
         <param name="рейтинг">5.0</param>
         <param name="число отзывов">52</param>
         <param name="годы опыта">10</param>
