@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
 <yml_catalog date="2025-09-28 20:00">
   <shop>
     <name>Gold Dragon Tattoo</name>
@@ -12,11 +11,15 @@
     
     <categories>
       <category id="1">Татуировки</category>
-      <category id="2">Пирсинг</category>
-      <category id="3">Удаление тату</category>
-      <category id="4">Перекрытие шрамов</category>
-      <category id="5">Обучение татуировке</category>
     </categories>
+    
+    <!-- БЛОК SETS ДОЛЖЕН БЫТЬ ПЕРЕД OFFERS -->
+    <sets>
+      <set id="tattoo-oktyabrsky">
+        <name>Татуировки в Октябрьском</name>
+        <url>https://golddragontattoo.ru</url>
+      </set>
+    </sets>
     
     <offers>
       <offer id="1" available="true">
@@ -25,103 +28,15 @@
         <price>6000</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
-        <set-ids>gold-dragon-tattoo</set-ids>
+        <set-ids>tattoo-oktyabrsky</set-ids>
         <picture>https://static.tildacdn.com/stor3465-3066-4136-b831-373231376534/73704744.jpg</picture>
-        <description>Профессиональные татуировки любой сложности</description>
+        <description>Профессиональные татуировки любой сложности от студии Gold Dragon</description>
         
-        <param name="Рейтинг" unit="балл">5.0</param>
-        <param name="Число отзывов" unit="шт">52</param>
-        <param name="Годы опыта" unit="лет">10</param>
-        <param name="Регион">Октябрьский</param>
-        <param name="Конверсия" unit="%">2</param>
-        
-        <param name="Исполнитель проверен">true</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу исполнителя">true</param>
-      </offer>
-
-      <offer id="2" available="true">
-        <name>Gold Dragon - Пирсинг в Октябрьском</name>
-        <url>https://golddragontattoo.ru</url>
-        <price>2500</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>2</categoryId>
-        <set-ids>gold-dragon-tattoo</set-ids>
-        <picture>https://static.tildacdn.com/stor3866-6636-4232-b831-343461663431/56156512.jpg</picture>
-        <description>Безопасный пирсинг</description>
-        
-        <param name="Рейтинг" unit="балл">5.0</param>
-        <param name="Число отзывов" unit="шт">52</param>
-        <param name="Годы опыта" unit="лет">10</param>
-        <param name="Регион">Октябрьский</param>
-        <param name="Конверсия" unit="%">2</param>
-        
-        <param name="Исполнитель проверен">true</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу исполнителя">true</param>
-      </offer>
-
-      <offer id="3" available="true">
-        <name>Gold Dragon - Удаление татуировок в Октябрьском</name>
-        <url>https://golddragontattoo.ru</url>
-        <price>1000</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>3</categoryId>
-        <set-ids>gold-dragon-tattoo</set-ids>
-        <picture>https://static.tildacdn.com/stor6165-3233-4464-b834-306531656436/79968203.jpg</picture>
-        <description>Удаление татуировок современными методами</description>
-        
-        <param name="Рейтинг" unit="балл">5.0</param>
-        <param name="Число отзывов" unit="шт">52</param>
-        <param name="Годы опыта" unit="лет">10</param>
-        <param name="Регион">Октябрьский</param>
-        <param name="Конверсия" unit="%">2</param>
-        
-        <param name="Исполнитель проверен">true</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу исполнителя">true</param>
-      </offer>
-
-      <offer id="4" available="true">
-        <name>Gold Dragon - Перекрытие шрамов в Октябрьском</name>
-        <url>https://golddragontattoo.ru</url>
-        <price>8000</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>4</categoryId>
-        <set-ids>gold-dragon-tattoo</set-ids>
-        <picture>https://static.tildacdn.com/stor3765-3737-4532-b030-356536386537/99008045.jpg</picture>
-        <description>Перекрытие шрамов и ожогов</description>
-        
-        <param name="Рейтинг" unit="балл">5.0</param>
-        <param name="Число отзывов" unit="шт">52</param>
-        <param name="Годы опыта" unit="лет">10</param>
-        <param name="Регион">Октябрьский</param>
-        <param name="Конверсия" unit="%">2</param>
-        
-        <param name="Исполнитель проверен">true</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу исполнителя">true</param>
-      </offer>
-
-      <offer id="5" available="true">
-        <name>Gold Dragon - Обучение татуировке в Октябрьском</name>
-        <url>https://golddragontattoo.ru</url>
-        <price>50000</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>5</categoryId>
-        <set-ids>gold-dragon-tattoo</set-ids>
-        <picture>https://static.tildacdn.com/stor3339-3962-4162-a563-396335633133/31970848.jpg</picture>
-        <description>Профессиональное обучение татуировке</description>
-        
-        <param name="Рейтинг" unit="балл">5.0</param>
-        <param name="Число отзывов" unit="шт">52</param>
-        <param name="Годы опыта" unit="лет">10</param>
-        <param name="Регион">Октябрьский</param>
-        <param name="Конверсия" unit="%">2</param>
-        
-        <param name="Исполнитель проверен">true</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу исполнителя">true</param>
+        <param name="рейтинг">5.0</param>
+        <param name="число отзывов">52</param>
+        <param name="годы опыта">10</param>
+        <param name="регион">Октябрьский</param>
+        <param name="конверсия">2</param>
       </offer>
     </offers>
   </shop>
